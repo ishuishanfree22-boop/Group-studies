@@ -1,0 +1,50 @@
+java script exicution context
+{} ==> golbel exicution context
+this store its value
+
+1 golbel
+2 function
+3 eval
+
+javascript run in two phase 
+1   memory creation phase
+2   execution phase
+
+step -> golbel execution -> this
+
+-> memory phase 
+    val 1 -> undefined
+    val 2 -> undefined
+    addnum -> defination
+    result 1 -> undefined
+    result2 -> undefined
+
+-> exicution phase
+    val 1 <- 10
+    val 2 <- 5
+    add Num [
+        new variable env + execution thread[
+            // define everything again from memry phase for ths function
+
+            at exicution phase 
+            num 1 <- 10
+            num 2 <- 5
+            total <- 15
+
+            /total get return
+
+            globe context get deleted
+
+        ]
+    ]
+
+
+globle memory work as stack
+
+use lefo   => last in first out
+
+i know sbout control flow if else and loop therefor i will skip it
+
+== for comparing normally
+
+=== for comparing dta type of given condition

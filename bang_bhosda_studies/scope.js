@@ -48,3 +48,22 @@ const addthree = (num) => {
 }
 console.log(addthree(5)); // This will print 8 //function as arrow function
 
+//----------------------------------------------------------------------
+
+// this and arro function
+
+// this cant be used in function expression and function declaration but can be used in arrow function
+
+const chai = () => {
+    console.log(this); // this will refer to the global object (window in browsers) in arrow function
+}
+chai();
+
+//implicit return in arrow function
+
+const addfour = num => num + 4;
+console.log(addfour(5)); // This will print 9
+
+//while using curly braces ==> return {}
+// while not using curly braces ==> implicit return ()
+
