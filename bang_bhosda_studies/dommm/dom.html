@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM bhosda</title>
+</head>
+<body style="background-color: black; color: white;">
+    <div class = "parent">
+        <div class = "child">monday</div>
+        <div class = "child">tuesday</div>
+        <div class = "child">wednesday</div>
+    </div> 
+</body>
+<script>
+    const parent = document.querySelector('.parent');
+    console.log(parent);
+    console.log(parent.children); // arrey like object 
+    console.log(parent.children[0]);
+    console.log(parent.children[1].innerHTML); // gives the content of the element
+    console.log(parent.children[2].innerHTML);
+
+
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+    }// for printing all the children of the parent element
+
+
+// changing colour of the child
+    parent.children[0].style.color = 'red';
+    parent.children[0].style.padding = '10px';
+    parent.children[1].style.color = 'green';
+    parent.children[2].style.color = 'blue';
+
+    console.log(parent.firstElementChild); // gives the first child of the parent element
+
+    console.log(parent.lastElementChild); // gives the last child of the parent element
+
+    const dayone = document.querySelector('.child'); // gives the first element with the class name 'child'
+    console.log(dayone);
+
+    console.log(dayone.parentElement); // gives the parent element of the selected element
+
+    console.log(dayone.nextElementSibling); // gives the next sibling of the selected element
+
+    console.log("NODES", parent.childNodes); // gives all the child nodes of the parent element including text nodes
+</script>
+</html>
