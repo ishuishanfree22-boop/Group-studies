@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#FFEF9F;
+
+}
+#title{
+    height: 80px;
+    border-style:solid;
+    border-color:black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:20px;
+    width:80vw;
+    border-width: 5px;
+    background-color: #FF537B;
+}
+
+
+    
+h1{
+
+    font-weight:850;
+    
+
+    
+    letter-spacing: 2px;
+    
+    
+}
+#login{
+    margin-top:60px;
+    width:300px;
+    padding:30px;
+
+}
