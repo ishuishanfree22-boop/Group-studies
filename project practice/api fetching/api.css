@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(80, 78, 78);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+#timebox{
+    height:55vh;
+    width:85vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-style:solid;
+    border-color:grey;
+    font-weight: 500;
+    color:rgb(46, 44, 44);
+    background-color:rgb(124, 118, 118);
+    border-radius:30%;
+}
+
+
+.box{
+    margin:2px;
+    border-color:rgb(32, 29, 29);
+    border-style:solid;
+    border-width:2px;
+    font-weight:500;
+    
+}
+
+
+
+
+h2{
+    border-style:solid;
+    border-color:black;
+    color:blue;
+
+}
+
+
+
+
+
